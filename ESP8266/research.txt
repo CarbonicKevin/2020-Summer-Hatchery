@@ -1,1 +1,4 @@
-httpswww.instructables.comidArduino-Esp8266-Post-Data-to-Website
+www.instructables.comidArduino-Esp8266-Post-Data-to-Website
+http://www.microchip.ua/wireless/esp01.pdf
+https://www.behind-the-scenes.co.za/connecting-the-esp8266-to-a-breadboard-and-ftdi-programmer/
+https://create.arduino.cc/projecthub/ROBINTHOMAS/programming-esp8266-esp-01-with-arduino-011389
