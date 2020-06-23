@@ -3,6 +3,7 @@
         {
             "name": "Win32",
             "includePath": [
+                "C:\\Users\\kevin\\Documents\\Arduino\\libraries\\Firebase_ESP8266_Client\\src",
                 "C:\\Users\\kevin\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\**",
                 "C:\\Users\\kevin\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.1\\**"
             ],
