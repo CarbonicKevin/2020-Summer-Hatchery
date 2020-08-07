@@ -5,8 +5,8 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
 
-#define FIREBASE_HOST 
-#define FIREBASE_AUTH 
+#define FIREBASE_HOST ""
+#define FIREBASE_AUTH ""
 #define listLen 17
 
 ESP8266WebServer server(80);
@@ -51,8 +51,8 @@ void loop() {
     latString = readGPSList[2].substring(0, 2) + " " + readGPSList[2].substring(2) + " " + readGPSList[3];
     lonString = readGPSList[4].substring(0, 3) + " " + readGPSList[4].substring(3) + " " + readGPSList[5];
 
-    if (Firebase.setString(firebaseData, "latitude:", latString))  {latPost="T";} else {latPost="F";}
-    if (Firebase.setString(firebaseData, "longitude:", lonString)) {lonPost="T";} else {lonPost="F";}
+    if (Firebase.setString(firebaseData, "users/test/latitude", latString))  {latPost="T";} else {latPost="F";}
+    if (Firebase.setString(firebaseData, "users/test/longitude", lonString)) {lonPost="T";} else {lonPost="F";}
     
 }
 
