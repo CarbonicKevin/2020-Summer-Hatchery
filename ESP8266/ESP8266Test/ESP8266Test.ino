@@ -4,8 +4,8 @@
 
 ESP8266WebServer server(80);
 
-const char* ssid = "PrestressedInternet"; //Enter Wi-Fi SSID
-const char* password =  "8AF96Rogers"; //Enter Wi-Fi Password
+const char* ssid = ""; //Enter Wi-Fi SSID
+const char* password =  ""; //Enter Wi-Fi Password
  
 void setup() {
   Serial.begin(115200); //Begin Serial at 115200 Baud
